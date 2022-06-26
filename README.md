@@ -10,7 +10,6 @@
     - If user try access the `/event/lesson/:slug` route manually, is redirected to previous route;
     - The lesson card renders a `div` instead a `Link` for coming soon lessons.
 - [x] Storage event details on **GraphCMS**
-- [x] **Docker** files (`docker-compose.yaml` and `Dockerfile`) to run project inside Docker, but in development mode;
 
 ## 💾 Environment Variables
 To run this project, you will need to add the following environment variables to your `.env.local` file:

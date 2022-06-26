@@ -1,34 +1,33 @@
-# ignite-lab React|JS
-## _Online Events Platform application developed with React, GraphQL, Apollo, QRaphQL Codegen, GraphCMS and Vercel_
+## 🛠 Skills
 
-## Features
+![react][react] ![graphql][graphql] ![apollo client][apollo] ![sass][sass] ![tailwind css][tailwind] ![vite][vite]
 
-- Lesson 1 • The beginning of the ReactJS specialization
-- Lesson 2 • Visual structure of the project
-- Lesson 3 • Class routing and player
-- Lesson 4 • Enrollment via GraphQL
-- Lesson 5 • Deployment, CodeGen and next steps
+## 📄 Roadmap
 
-## Tech
+- [x] Use **Sass** ( `.scss`) and use the  `@apply`from **Tawildin CSS** to avoid longer `classNames` on **JSX**;
+- [x] Use same layout as home page (without form) to shwo on route ´/event` when user don't select any lesson;
+- [x] Protect coming soon lessons;
+    - If user try access the `/event/lesson/:slug` route manually, is redirected to previous route;
+    - The lesson card renders a `div` instead a `Link` for coming soon lessons.
+- [x] Storage event details on **GraphCMS**
+- [x] **Docker** files (`docker-compose.yaml` and `Dockerfile`) to run project inside Docker, but in development mode;
+- [ ] Implement Loading screens;
+- [ ] **ESLint** configuration;
 
-Stack of technologies used in the project:
+## 💾 Environment Variables
+To run this project, you will need to add the following environment variables to your `.env` file:
+- **`VITE_APP_API_URL`:** **GraphCMS** API Link (used on **Apollo Client**)
+- **`VITE_APP_API_TOKEN`:** **GraphCMS** Token (used on **Apollo Client** to)
 
-- [Vite] - Next Generation Frontend Tooling
-- [ReactJS] - A JavaScript library for building user interfaces
-- [React Router Dom] - React Router is a collection of navigational components
-- [GraphQL] - A query language for your API
-- [Apollo GraphQL] - The best way to manage|GraphQL
-- [GraphQL Code Generator] - Generate code from your GraphQL schema
-- [GraphCMS] - Build Your GraphQL Content API. Instantly.
-- [Tailwind CSS] - Rapidly build modern websites without ever leaving your HTML.
-- [Vercel] - Vercel: Develop. Preview. Ship. For the best frontend teams
+## 🌐 Live Version
 
+[![vercel](https://img.shields.io/badge/vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://event-platform-vert.vercel.app/)
 
 ## Installation
 
 ```sh
-git clone https://github.com/adelino-masioli/ignite-lab-react
-cd ignite-lab-react
+git clone gh repo clone rodrigoadachi/event-platform
+cd event-platform
 npm i
 node run dev
 ```
@@ -41,10 +40,24 @@ VITE_API_URL="https://api-eu-west-2.graphcms.com/v2/your-tocken/master"
 VITE_API_ACCESS_TOKEN="your-tocken"
 ```
 
-### Screenshot
+## 🌠 Screenshots
+
 ![Screenshot Subscriber](src/assets/screenshot/subscriber.png)
 ![Screenshot Event](src/assets/screenshot/event.png)
 
 
 ## License
 MIT
+
+## 🔗 More About Me
+[
+![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+](https://www.linkedin.com/in/rodrigoadachi/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rodrigoadachi)
+[instragram]: https://img.shields.io/badge/instragram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
+[react]: https://img.shields.io/badge/react-1E4174?style=for-the-badge&logo=react&logoColor=white
+[graphql]: https://img.shields.io/badge/graphql-1E4174?style=for-the-badge&logo=graphql&logoColor=white
+[apollo]: https://img.shields.io/badge/apollo%20client-1E4174?style=for-the-badge&logo=apollographql&logoColor=white
+[sass]: https://img.shields.io/badge/sass-1E4174?style=for-the-badge&logo=sass&logoColor=white
+[tailwind]: https://img.shields.io/badge/tailwind%20css-1E4174?style=for-the-badge&logo=tailwindcss&logoColor=white
+[vite]: https://img.shields.io/badge/vite-1E4174?style=for-the-badge&logo=vite&logoColor=white

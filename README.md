@@ -11,11 +11,9 @@
     - The lesson card renders a `div` instead a `Link` for coming soon lessons.
 - [x] Storage event details on **GraphCMS**
 - [x] **Docker** files (`docker-compose.yaml` and `Dockerfile`) to run project inside Docker, but in development mode;
-- [ ] Implement Loading screens;
-- [ ] **ESLint** configuration;
 
 ## 💾 Environment Variables
-To run this project, you will need to add the following environment variables to your `.env` file:
+To run this project, you will need to add the following environment variables to your `.env.local` file:
 - **`VITE_APP_API_URL`:** **GraphCMS** API Link (used on **Apollo Client**)
 - **`VITE_APP_API_TOKEN`:** **GraphCMS** Token (used on **Apollo Client** to)
 

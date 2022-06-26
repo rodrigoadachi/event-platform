@@ -1,6 +1,6 @@
 ## 🛠 Skills
 
-![react][react] ![graphql][graphql] ![apollo client][apollo] ![sass][sass] ![tailwind css][tailwind] ![vite][vite]
+[![react](https://img.shields.io/badge/react-1E4174?style=for-the-badge&logo=react&logoColor=white)] ![graphql][graphql] ![apollo client][apollo] ![sass][sass] ![tailwind css][tailwind] ![vite][vite]
 
 ## 📄 Roadmap
 
@@ -54,10 +54,3 @@ MIT
 ![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
 ](https://www.linkedin.com/in/rodrigoadachi/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rodrigoadachi)
-[instragram]: https://img.shields.io/badge/instragram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
-[react]: https://img.shields.io/badge/react-1E4174?style=for-the-badge&logo=react&logoColor=white
-[graphql]: https://img.shields.io/badge/graphql-1E4174?style=for-the-badge&logo=graphql&logoColor=white
-[apollo]: https://img.shields.io/badge/apollo%20client-1E4174?style=for-the-badge&logo=apollographql&logoColor=white
-[sass]: https://img.shields.io/badge/sass-1E4174?style=for-the-badge&logo=sass&logoColor=white
-[tailwind]: https://img.shields.io/badge/tailwind%20css-1E4174?style=for-the-badge&logo=tailwindcss&logoColor=white
-[vite]: https://img.shields.io/badge/vite-1E4174?style=for-the-badge&logo=vite&logoColor=white
